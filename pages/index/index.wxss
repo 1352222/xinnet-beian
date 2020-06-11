@@ -1,0 +1,35 @@
+/**index.wxss**/
+page{
+  background: #e4eaf6;
+}
+.container {
+  padding: 0 30rpx;
+}
+.tit {
+  color: #343537;
+  font-size: 26rpx;
+  line-height: 90rpx;
+  display: inline-block;
+}
+.con-msg {
+  height: 600rpx;
+}
+.con-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 0 30rpx;
+  height: 110rpx;
+  line-height: 110rpx;
+  background: #fff;
+  margin-bottom: 30rpx;
+  box-shadow: -2px -3px 5px #dadee7;
+}
+.imgs {
+  width: 50rpx;
+  height: 50rpx;
+  vertical-align: middle;
+  margin-right: 20rpx;
+}
+.con-item text {
+  font-size: 32rpx;
+}

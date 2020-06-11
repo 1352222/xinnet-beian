@@ -1,0 +1,51 @@
+<!--index.wxml-->
+<!-- <nav-bar navbar-data="{{navbarData}}"></nav-bar> -->
+<view class="container" style="top:{{height}}rpx;">
+  <text class="tit">办理备案电子化核验流程</text>
+  <block class="con-msg">
+    <view class="con-item" bindtap="handleGo">
+      <view>
+        <image src="../../static/images/icon01.jpg" class="imgs"></image>
+        <text>上传主体信息</text>
+      </view>
+      <view>
+        <image hidden="{{ishidden !== '1'}}" src="../../static/images/yes.jpg" class="imgs"></image>
+        <image hidden="{{ishidden !== '2'}}" src="../../static/images/no.jpg" class="imgs"></image>
+        <image src="../../static/images/right.jpg" class="imgs"></image>
+      </view>
+    </view>
+    <view class="con-item">
+      <view>
+        <image src="../../static/images/icon02.jpg" class="imgs"></image>
+        <text>上传网站负责人信息</text>
+      </view>
+      <view>
+        <image hidden="{{ishidden !== '1'}}" src="../../static/images/yes.jpg" class="imgs"></image>
+        <image hidden="{{ishidden !== '2'}}" src="../../static/images/no.jpg" class="imgs"></image>
+        <image src="../../static/images/right.jpg" class="imgs"></image>
+      </view>
+    </view>
+    <view class="con-item">
+      <view>
+        <image src="../../static/images/icon03.jpg" class="imgs"></image>
+        <text>上传核验单</text>
+      </view>
+      <view>
+        <image hidden="{{ishidden !== '1'}}" src="../../static/images/yes.jpg" class="imgs"></image>
+        <image hidden="{{ishidden !== '2'}}" src="../../static/images/no.jpg" class="imgs"></image>
+        <image src="../../static/images/right.jpg" class="imgs"></image>
+      </view>
+    </view>
+    <view class="con-item">
+      <view>
+        <image src="../../static/images/icon04.jpg" class="imgs"></image>
+        <text>视频核验</text>
+      </view>
+      <view>
+        <image hidden="{{ishidden !== '1'}}" src="../../static/images/yes.jpg" class="imgs"></image>
+        <image hidden="{{ishidden !== '2'}}" src="../../static/images/no.jpg" class="imgs"></image>
+        <image src="../../static/images/right.jpg" class="imgs"></image>
+      </view>
+    </view>
+  </block>
+</view>
